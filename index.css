@@ -1,0 +1,85 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.udemy{
+    color: rgb(100, 26, 169);
+}
+.search>input{
+    width: 700px;
+    padding: 10px;
+   border: none;
+
+}
+input:focus{
+    border: none;
+}
+.lastbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.lastbox>h3{
+    margin: 20px;
+
+}
+.line{
+    background-color: rgb(159, 62, 62);
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.firstsection>div{
+    color: rgb(75, 72, 72);
+}
+.imagesection>img{
+    width: 100%
+}
+.cardsection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+   
+}
+.cardsection>div{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+
+
+}
+.mainbox>div{
+    margin: 10px;
+    color: rgb(130, 121, 121);
+    border: 3px solid rgb(6, 5, 5);
+    flex-basis: 25%;
+    padding-left: 10px;
+    
+    border-radius: 10px;
+   height: 40px;
+   padding-bottom: 14px;
+   
+   
+}
