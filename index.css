@@ -173,3 +173,87 @@ input:focus{
         margin: 10px !important;
     }
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.search {
+    min-width: 0;
+}
+
+.search input {
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px);
+}
+
+.imagesection img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cardsection {
+    align-items: stretch;
+}
+
+.cardsection>div {
+    min-width: 0;
+}
+
+.cardsection img {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.mainbox>div {
+    min-width: 0;
+    padding: 8px 10px;
+    height: auto;
+}
+
+@media (max-width: 900px) {
+    .cardsection>div {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        gap: 8px 16px;
+    }
+
+    .firstsection {
+        display: none;
+    }
+
+    .lastbox {
+        gap: 8px 16px;
+    }
+
+    .lastbox>h3 {
+        margin: 8px 0;
+    }
+
+    .cardsection>div {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .cardsection h2 {
+        font-size: 1rem;
+    }
+
+    .mainbox>div {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 380px) {
+    .cardsection>div {
+        flex-basis: 100%;
+    }
+}
