@@ -257,3 +257,33 @@ input:focus{
         flex-basis: 100%;
     }
 }
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    color: rgb(75, 72, 72);
+}
+
+.footer-links h3 {
+    margin: 0 0 4px;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer-links {
+        flex: 1 1 100%;
+        gap: 8px;
+        margin: 10px !important;
+    }
+}
