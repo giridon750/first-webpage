@@ -267,3 +267,10 @@ input:focus{
 .content a:focus-visible {
     text-decoration: underline;
 }
+
+.footer-description {
+    max-width: 32rem;
+    margin: 0;
+    color: rgb(75, 72, 72);
+    line-height: 1.5;
+}
